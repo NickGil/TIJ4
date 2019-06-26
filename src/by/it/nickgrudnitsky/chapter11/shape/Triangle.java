@@ -1,6 +1,6 @@
 //: polymorphism/shape/Triangle.java
 package by.it.nickgrudnitsky.chapter11.shape;
-import static by.it.nickgrudnitsky.myLibrary.Sout.print;
+import static by.it.nickgrudnitsky.myLibrary.Print.print;
 
 
 public class Triangle extends Shape {

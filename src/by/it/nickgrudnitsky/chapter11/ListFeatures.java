@@ -5,7 +5,7 @@ import by.it.nickgrudnitsky.typeinfo.pets.*;
 
 import java.util.*;
 
-import static by.it.nickgrudnitsky.myLibrary.Sout.print;
+import static by.it.nickgrudnitsky.myLibrary.Print.print;
 
 
 public class ListFeatures {
