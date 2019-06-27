@@ -3,10 +3,10 @@ package by.it.nickgrudnitsky.chapter13;
 import java.io.PrintStream;
 import java.util.Formatter;
 
-public class Tusk3 {
+public class Task3 {
   private String name;
   private Formatter f;
-  public Tusk3(String name, Formatter f) {
+  public Task3(String name, Formatter f) {
     this.name = name;
     this.f = f;
   }
@@ -15,9 +15,9 @@ public class Tusk3 {
   }
   public static void main(String[] args) {
     PrintStream outAlias = System.err;
-    Tusk3 tommy = new Tusk3("Tommy",
+    Task3 tommy = new Task3("Tommy",
       new Formatter(System.err));
-    Tusk3 terry = new Tusk3("Terry",
+    Task3 terry = new Task3("Terry",
       new Formatter(outAlias));
     tommy.move(0,0);
     terry.move(4,8);

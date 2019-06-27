@@ -9,6 +9,10 @@ public class Print {
         System.out.println();
     }
 
+    public static void printnb(Object object) {
+        System.out.print(object);
+    }
+
 }
 
 
