@@ -3,6 +3,8 @@
 package by.it.nickgrudnitsky.chapter14.toys;
 
 
+import java.lang.reflect.InvocationTargetException;
+
 import static by.it.nickgrudnitsky.myLibrary.Print.print;
 
 interface HasBatteries {
@@ -63,5 +65,11 @@ public class ToyTest {
             System.exit(1);
         }
         printInfo(obj.getClass());
+
+        try {
+            Toy.class.getDeclaredConstructor(int.class).newInstance(1);
+        } catch (InstantiationException | IllegalAccessException | InvocationTargetException | NoSuchMethodException e) {
+            e.printStackTrace();
+        }
     }
 }
