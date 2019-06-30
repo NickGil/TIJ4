@@ -13,7 +13,7 @@ class Part {
     }
 
     static List<Factory<? extends Part>> partFactories =
-            new ArrayList<Factory<? extends Part>>();
+            new ArrayList<>();
 
     static {
         partFactories.add(new FuelFilter.Factory());
