@@ -10,6 +10,8 @@ import static by.it.nickgrudnitsky.myLibrary.SwingConsole.run;
 
 
 public class Faces extends JFrame {
+
+    
   private static Icon[] faces;
   private JButton jb, jb2 = new JButton("Disable");
   private boolean mad = false;
